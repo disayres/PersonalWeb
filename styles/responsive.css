@@ -1,0 +1,283 @@
+@media screen and (min-width:1400px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .home__picture {
+        width: 45rem;
+        height: 45rem;
+    }
+
+    .home {
+        height: 70rem;
+    }
+
+    .portfolio_img {
+        max-width: 35rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .home__picture {
+        width: 38rem;
+        height: 38rem;
+    }
+
+    .home {
+        height: 60rem;
+    }
+
+    .about-us__cover {
+        flex-basis: 50%;
+    }
+
+    .about-us__content {
+        flex-basis: 50%;
+    }
+
+    .service-box {
+        padding: 7rem 2rem;
+    }
+
+    .resume-list {
+        margin-right: 0;
+    }
+
+    .portfolio_img {
+        max-width: 29rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav__logo {
+        font-size: 5rem;
+    }
+
+    .menu__item {
+        margin-right: 2rem;
+    }
+
+    .home__content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .home__picture {
+        margin: 0 auto;
+        width: 36rem;
+        height: 36rem;
+    }
+
+    .home {
+        margin-top: 6rem;
+        background-image: none;
+        height: auto;
+    }
+
+    .home .row {
+        flex-direction: column-reverse;
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-us__content,
+    .about-us__cover {
+        flex-basis: auto;
+    }
+
+    .about-us__links-wrapper {
+        justify-content: center;
+    }
+
+    .service-box__caption {
+        max-width: none;
+    }
+
+    .resume-list::before,
+    .resume-list__item::before {
+        content: none;
+    }
+
+    .resume-list__icon {
+        display: none;
+    }
+
+    .resume-list {
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        min-height: auto;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .resume-list__item {
+        color: #fff;
+        background-color: var(--primary-color);
+        border-radius: 2rem;
+        padding: 1rem 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .resume-list__text {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    .resume-content {
+        margin-top: 4rem;
+    }
+
+    .portfolio-list {
+        gap: 1.5rem;
+    }
+
+    .section-heading+.row {
+        justify-content: center;
+    }
+
+    .section-heading+.row>.col-12:last-child {
+        margin-top: 2rem;
+    }
+
+    .contactus-map {
+        display: none;
+    }
+
+    .contact {
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        display: none;
+    }
+
+    .nav__icon {
+        display: flex;
+    }
+
+    .home {
+        margin-top: 4rem;
+    }
+
+    .home__picture {
+        margin: 0 auto;
+        width: 34rem;
+        height: 34rem;
+        border-width: 1.5rem;
+    }
+
+    .about-us__content {
+        padding: 2rem 4rem;
+    }
+
+    .service-box {
+        padding: 4rem 1rem;
+    }
+
+    .service-box__icon {
+        width: 6rem;
+    }
+
+    .portfolio-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio-list__item {
+        padding: 1rem 3rem;
+        border-radius: 4rem;
+        color: #fff;
+        background-color: var(--primary-color);
+    }
+
+    .portfolio_img {
+        max-width: 24rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .home__title {
+        font-size: 4rem;
+    }
+
+    .home__name {
+        font-size: 2rem;
+    }
+
+    .home__picture {
+        margin: 0 auto;
+        width: 29rem;
+        height: 29rem;
+    }
+
+    .about-us__content {
+        padding: 2rem;
+    }
+
+    .about-us__link {
+        width: 100%;
+    }
+
+    .service-box {
+        padding: 5rem 2rem;
+    }
+
+    .resume-content {
+        border-left: none;
+        padding: 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .home__title {
+        font-size: 3rem;
+    }
+
+    .home__links-wrapper {
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .home__link {
+        flex-grow: 1;
+    }
+
+    .service-box__title {
+        font-size: 2rem;
+    }
+
+    .contact {
+        padding: 4.5rem 2rem;
+    }
+
+    .copyright-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .home__picture {
+        width: 100%;
+    }
+
+    .portfolio-list__item {
+        width: 100%;
+        text-align: center;
+    }
+}
